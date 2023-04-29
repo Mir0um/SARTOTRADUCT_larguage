@@ -20,13 +20,11 @@ def main():
     if st.button("Lancer l'introduction  "):
         for i in range((len(senar1) + 1) // 2):
             if i * 2 < len(senar1):
-                print("max :", senar1[i * 2])
                 st.write("Maxime :", senar1[i * 2])
                 er = TS.text_to_speech(senar1[i * 2], "fr-FR","fr-FR-ClaudeNeural")
                 if str(er) != "None":
                     st.error(er)
             if i * 2 + 1 < len(senar1):
-                print("Léa :", senar1[i * 2 + 1])
                 st.write("Léa :", senar1[i * 2 + 1])
                 er = TS.text_to_speech(senar1[i * 2 + 1], "fr-FR")
                 if str(er) != "None":
