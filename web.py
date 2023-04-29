@@ -34,7 +34,7 @@ def main():
 
     st.write("---")
     options = ke["lang_id"].keys()
-    selected_options = st.multiselect('Select options:', options)
+    selected_options = st.multiselect('Select Langues:', options)
 
     if st.button("Parler"):
         if selected_options == []:
