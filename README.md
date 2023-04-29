@@ -1,6 +1,6 @@
 # SARTOTRADUCT
 
-SARTOTRADUCT est un projet de traduction de texte et de parole en utilisant Streamlit et les technologies de synthèse vocale et de reconnaissance vocale.
+SARTOTRADUCT est un projet de traduction de texte et de parole en utilisant Streamlit et les technologies de synthèse vocale et de reconnaissance vocale. Ce projet a été en bout également de tester et d'implémenter les solutions de cloud Azure.
 
 ## Fichiers inclus
 
