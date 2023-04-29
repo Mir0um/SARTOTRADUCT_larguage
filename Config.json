@@ -1,0 +1,45 @@
+{
+    "key_sp": "Azur_Voix key ",
+    "region_sp": "Azur_Voix region",
+
+    "key_tre": "Azur_Cognitive_Services key",
+    "location_tre": "Azur_Cognitive_Services region",
+
+    "open_ia": "open_ia",
+
+    "lang_id":
+    {
+      "fr": {
+        "voi": "fr-FR",
+        "name": "français",
+        "mal": "fr-FR-AlainNeural",
+        "femme": "fr-FR-BrigitteNeural"
+      },
+      "en": {
+        "voi": "en-US",
+        "name": "Anglais américain"
+      },
+      "it": {
+        "voi": "it-IT",
+        "name": "Italien"
+      },
+      "ru": {
+        "voi": "ru-RU",
+        "name": "Russe"
+      },
+      "zu": {
+        "voi": "zu-ZU",
+        "name": "Zoulou"
+      },
+      "zh-Hans": {
+        "voi": "zh-CN",
+        "name": "Chinois traditionnel"
+      },
+      "ar": {
+        "voi": "ar-AE",
+        "name": "arabe"
+      }
+    }
+}
+
+
