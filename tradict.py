@@ -38,8 +38,11 @@ def tradict(text,list_lang):
     request = requests.post(constructed_url, params=params, headers=headers, json=body)
     response = request.json()
 
-    response = response[0]["translations"]
-
+    try:
+        response = response[0]["translations"]
+    except:
+        return response
+    
     res = {}
     for i in response:
         #print(i["to"], ":" , i["text"])
