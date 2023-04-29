@@ -23,4 +23,7 @@ Pour lancer le projet, veuillez utiliser la commande suivante :
 
 ``` streamlit run web.py ```
 
+## vidéo tutoriel
+https://www.youtube.com/watch?v=GXnAg7TSzqw&t=2s
+
 Enjoy!
