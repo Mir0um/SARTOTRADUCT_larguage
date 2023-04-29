@@ -31,31 +31,6 @@ def text_to_speech(text, lang, voice=None):
             print("Erreur détaillée: {}".format(cancellation_details.error_details))
             return res, "\nErreur détaillée:",cancellation_details.error_details
 
-"""
-def text_to_speech(text,lang):
-
-    key = ke["key_sp"]
-    region = ke["region_sp"]
-
-    speech_config = speechsdk.SpeechConfig(subscription=key, region=region)
-    speech_config.speech_synthesis_language = lang # "fr-FR" #"en-US"  #"fr-FR"
-
-    speech_synthesizer = speechsdk.SpeechSynthesizer(speech_config=speech_config)
-
-    result = speech_synthesizer.speak_text_async(text).get()
-
-    if result.reason == speechsdk.ResultReason.SynthesizingAudioCompleted:
-        #print("Texte converti en parole et lu avec succès.")
-        pass
-    elif result.reason == speechsdk.ResultReason.Canceled:
-        cancellation_details = result.cancellation_details
-        print("La conversion du texte en parole a été annulée: {}".format(cancellation_details.reason))
-        res = "La conversion du texte en parole a été annulée:",cancellation_details.reason
-        if cancellation_details.reason == speechsdk.CancellationReason.Error:
-            print("Erreur détaillée: {}".format(cancellation_details.error_details))
-            return res, "\nErreur détaillée:",cancellation_details.error_details
-"""
-
 if __name__ == "__main__":
 
     # Texte à convertir en parole
